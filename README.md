@@ -1,2 +1,2 @@
-# Employee-management
-A PHP - OOP - PDO Employee management app.
+# Employee Management App  
+A PHP - OOP - PDO Employee Management App.  
