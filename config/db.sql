@@ -1,3 +1,6 @@
+CREATE DATABASE `Ghp02FgpuqfbeO`DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `Ghp02FgpuqfbeO`;
+
 CREATE TABLE `employees` (
   `id` tinyint(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
