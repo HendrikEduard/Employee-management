@@ -1,12 +1,5 @@
 <?php
 
-function clean($data) {
-  $data = strip_tags($data);
-  $data = htmlentities($data, ENT_QUOTES, 'UTF-8');
-  $data = trim($data);
-  return $data;
-}
-
 // Validate name
 if (empty(trim($_POST["name"]))) {
   $name_err = "Your name is required";
