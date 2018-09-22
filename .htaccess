@@ -1,0 +1,8 @@
+# A custom 404 File not Found page
+ErrorDocument 404 /notfound.php
+
+# Prevent directory file listing in all of your folders 
+IndexIgnore *
+
+# Make pages render without their extension in the url
+Options +MultiViews
