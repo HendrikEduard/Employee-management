@@ -1,7 +1,6 @@
 <?php session_start();
-  spl_autoload_register(function($class) {
-    require_once "classes/{$class}.php";
-  });
+require_once 'init.php';
+
 // Define variables and initialize with empty values
 $name = $city = $title = "";
 $name_err = $city_err = $title_err = "";
