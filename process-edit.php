@@ -1,12 +1,5 @@
 <?php
 
-function clean($data) {
-  $data = strip_tags($data);
-  $data = htmlentities($data, ENT_QUOTES, 'UTF-8');
-  $data = trim($data);
-  return $data;
-}
-
 // Validate name
 if (empty(trim($_POST["name"]))) {
   $name_err = "Your name is required";
@@ -39,6 +32,7 @@ if (empty(trim($_POST["title"]))) {
 }
   if(empty($name_err) && empty($city_err) && empty($title_err)) {
     $fields = ['name' => $name, 'city' => $city, 'title' => $title];
+    $id = $_POST['id'];    
     $employee = new Employee();
     $employee->save($fields, $id);
   }
