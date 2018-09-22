@@ -40,6 +40,7 @@ require_once 'layout/nav.php';
             </div>
             <input type="submit" name="submit" class="btn btn-success" value="Update Employee"> &nbsp; 
             <a class="btn btn-secondary" href="index">Cancel</a>
+            <input type="hidden" name="id" value="<?= $result->id ?>">
           </form>
         </div>
       </div>
