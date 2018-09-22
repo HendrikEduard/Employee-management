@@ -1,7 +1,5 @@
 <?php session_start();
-spl_autoload_register(function($class) {
-  require_once "classes/{$class}.php";
-});
+require_once 'init.php';
 
 if(isset($_GET['id'])) {
   $id = intval($_GET['id']);
@@ -29,14 +27,17 @@ require_once 'layout/nav.php';
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" class="form-control" name="name" value="<?= $result->name ?>">
+              <span class="help-block"><?= $name_err;?></span>
             </div>
             <div class="form-group">
               <label for="city">City</label>
               <input type="text" class="form-control" name="city" value="<?= $result->city ?>">
+              <span class="help-block"><?= $city_err;?></span>
             </div>
             <div class="form-group">
               <label for="title">Title</label>
               <input type="text" class="form-control" name="title" value="<?= $result->title ?>">
+              <span class="help-block"><?= $title_err;?></span>
             </div>
             <input type="submit" name="submit" class="btn btn-success" value="Update Employee"> &nbsp; 
             <a class="btn btn-secondary" href="index">Cancel</a>
