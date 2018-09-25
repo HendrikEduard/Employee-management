@@ -1,0 +1,82 @@
+body {
+  background-color: #e9eaef;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+.jumbotron {
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  border-radius: .75rem;
+}
+
+.table {
+/*  width: 100%;*/
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table td, .table th {
+  padding: .5rem .8rem;
+  vertical-align: middle;
+}
+
+.btn-sm {
+  font-size: .7rem;
+}
+
+label {
+  margin: 0 .5rem ;
+}
+
+em {
+  font-weight: bold;
+}
+
+.lnbwelcome, .lnbmain, .lnbaside {
+  width: 650px;
+  min-height: 150px;
+  margin: 40px auto 20px;
+  padding: 0 15px;
+  background: #fff;
+  color: #211331;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+}
+.lnbwelcome > h1, .lnbwelcome > h2, .lnbmain > h3, .lnbaside > h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.lnbaside > ul, .lnbaside > li {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.four04 {
+  width: 650px;
+  margin: 40px auto 20px;
+  padding: 0 15px;
+  color: #211331;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 650px){
+  .four04 {
+    width: 100%
+  }
+  .four04 {
+    width: 100%
+  }
+}
+
+
