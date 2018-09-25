@@ -7,6 +7,5 @@
   <title>Modularity</title>
   <link rel="stylesheet" href="<?= css_url('bootstrap.min.css')?>">
   <link rel="stylesheet" href="<?= css_url('app.css')?>">
-  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/68233636ac/UntitledProject/style.css">
 </head>
 <body>
