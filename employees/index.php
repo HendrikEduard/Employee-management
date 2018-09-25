@@ -1,11 +1,5 @@
 <?php session_start();
 require_once '../init.php';
-
-if(isset($_GET['id'])) {
-  $id = intval($_GET['id']);
-  $employee = new Employee();
-  $result = $employee->delete($id);
-}  
 require_once LNBPATH.'/layout/header.php';  
 require_once LNBPATH.'/layout/nav.php'; 
 ?>
