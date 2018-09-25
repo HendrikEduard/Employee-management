@@ -1,4 +1,4 @@
-Copyright (c) 2018 by H E Kuiper
+Copyright (c) 2018 by Hendrik Eduard Kuiper
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
