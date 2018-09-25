@@ -1,0 +1,22 @@
+{
+  "name": "employee-management",
+  "version": "1.0.0",
+  "description": "A PHP PDO App to store employee information",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HendrikEduard/Employee-management.git"
+  },
+  "keywords": [
+    "PHP",
+    "PDO",
+    "OOP"
+  ],
+  "requirements": [
+    "PHP 7.2 or newer",
+    "MySQL 5.6.5 or newer"
+  ],
+  "author": "Hendrik Eduard Kuiper",
+  "license": "MIT",
+  "homepage": "https://github.com/HendrikEduard/Employee-management#readme"
+}
