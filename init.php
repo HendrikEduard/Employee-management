@@ -11,7 +11,7 @@
 defined('LNBPATH') or define('LNBPATH', __DIR__);
 
 // Change localhost/katana/ to your domain name
-defined('LNBURL') or define('LNBURL', 'http://localhost/katana/');
+defined('LNBURL') or define('LNBURL', 'http://localhost/');
 
 // *-*-*-*-*-*-*-*-*-*
 // uncomment these in production
